@@ -1,0 +1,57 @@
+# Compiled Object Files
+*.o
+*.obj
+*.ko
+*.mod.o
+*.d
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+*.dll
+*.so
+*.dylib
+
+# Build Directories
+build/
+bin/
+obj/
+dist/
+release/
+debug/
+out/
+.vs/ # Visual Studio Solution folder
+
+# IDE Specific (VS Code)
+.vscode/                 # VS Code workspace settings, tasks, launch configurations
+!.vscode/settings.json   # Don't ignore settings.json if you want to share workspace settings
+!.vscode/tasks.json      # Don't ignore tasks.json if you want to share build tasks
+!.vscode/launch.json     # Don't ignore launch.json if you want to share debugging configurations
+!.vscode/extensions.json # Don't ignore recommended extensions list
+
+# macOS Specific
+.DS_Store  # macOS specific file for folder settings
+.localized # macOS specific folder localization file
+
+# Dependency Directories (if you manage them locally, e.g., vcpkg artifacts)
+vcpkg/installed/ # vcpkg installed packages
+vcpkg/buildtrees/
+vcpkg/packages/
+
+# Test/Benchmark Output
+test_output/
+*.log
+*.txt # Be careful with this one, might exclude desired text files
+
+# Other temporary files
+*~ # Emacs/Vim backup files
+*.bak
+*.swp # Vim swap files
+*.swo
+*.tmp
+*.user # Visual Studio user options
+
+# iFiles
+.cache/
